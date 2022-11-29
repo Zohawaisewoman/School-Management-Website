@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+     <link rel="stylesheet" href="~/css/StyleSheet.css" />
+     <link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+<!--Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+  <header>
+       <nav>
+        <div class="logo">
+            I<span>E</span>S
+        </div>
+        <div class="menu">
+            <a href="#">Our School</a>
+            <a href="#">Admission</a>
+            <a href="#">Learning</a>
+            <a href="#">News & Events</a>
+            <a href="#">Contacts</a>
+        </div>
+        <div class="icon">
+            <i class="fa fa-search"></i>
+            <a href="">Login</a>
+        </div>
+       </nav>
+       <section class="h-text">
+        <i class="fa-solid fa-school"id="camera"></i>
+        <h1>The Right School yor you </h1>
+         <input type="text" name="" placeholder="Search here...">
+         <button><i class="fa fa-search"></i></button>
+    </section>
+    </header>
+<!-------------------Header------------------->
+    <div>
+        @RenderBody()
+    </div>
+    <!-- Footer -->
+   <div class="footer">
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-3">
+            <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h5 class="text-uppercase fw-bold mb-4 text-warning">
+                Our School
+              </h5>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration: none;">Director Welcome</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration: none;">Teachers & Staff</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration: none;">School Timing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration: none;">Vision and Mision</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration: none;">Faculities and Technology</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration: none;">Brochures & Factsheets</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration: none;">Academic Results</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration: none;">Policies</a>
+              </p>
+              
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4 text-warning">
+                Admissions
+              </h4>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none"> Entry Requirement</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none">School Tour</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none">Refer a friend</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none"> Academic Calender</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none">Uniform Policy</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none"> Fee Structure</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none"> Transportation</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none"> Scholarships</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none">Frequently Asked Question</a>
+              </p>
+
+             </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4 text-warning">
+              Learning
+              </h4>
+              <p>
+                <a href="#!" class="text-reset" style="text-decoration:none">Our Curriculm</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration:none">Asessment</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration:none">Education and Sports</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset"style="text-decoration:none">High Quality Learning</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4 text-warning">Contacts</h4>
+              <p><i class="fas fa-home me-3 text-secondary"></i> Daska Pul, Iqra Education Syestem, Madharian Wala Kalar, Sialkot, Punjab 51010</p>
+              <p>
+                <address>
+                  <i class="fas fa-envelope me-3 text-secondary "></i>
+                  <a href="mailto:IqraEducation@gmail.com" style="text-decoration: none ">IqraEducation@gmail.com</a>
+                </address>
+              </p>
+              <p><i class="fas fa-phone me-3 text-secondary"></i> (052) 6600120</p>
+              <p><i class="fas fa-print me-3 text-secondary"></i> 0345 6776235</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+            <!-- Section: Social media -->
+        <section class="mb-1">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-white" href="https://uskt.edu.pk">Zoha Ahsan</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+   </div>
+  <!-- Footer -->
+ 
+</body>
+</html>
